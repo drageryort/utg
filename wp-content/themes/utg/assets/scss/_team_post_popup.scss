@@ -1,0 +1,115 @@
+.team-post-popup{
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  overflow: hidden;
+  .mfp-content{
+    width: 100%;
+    max-width: unset;
+    .container{
+      display: block;
+      position: relative;
+      overflow: hidden;
+      .team-item{
+        background: #FFFFFF;
+        position: relative;
+        z-index: 1;
+        height: 90vh;
+        .close-btn-wrapper{
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          width: 22px;
+          height: 22px;
+          border: none;
+          padding: 0;
+          background: transparent;
+          outline: none;
+          .icp-icon{
+            display: block;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            svg{
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+          }
+          .mfp-close{
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 0;
+            width: 22px;
+            height: 22px;
+            border: none;
+            &:hover,
+            &:focus,
+            &:active{
+              background: transparent;
+            }
+          }
+        }
+        .inner{
+          display: flex;
+          justify-content: space-between;
+          padding: 60px 10px 40px 60px;
+          height: inherit;
+          &:after{
+            content: '';
+            position: absolute;
+            width: 23%;
+            height: 525px;
+            left: 0;
+            top: 0;
+            background: #F5F5F5;
+            z-index: -1;
+          }
+          .part{
+            &:first-child{
+              display: block;
+              width: 31.5%;
+              img{
+                display: block;
+                width: 100%;
+                object-fit: contain;
+                object-position: left;
+              }
+            }
+            &:last-child{
+              padding: 70px 80px 0 0;
+              width: calc(100% - 36.75%);
+              text-align: left;
+              overflow-y: scroll;
+              &::-webkit-scrollbar-track {
+              }
+              &::-webkit-scrollbar {
+                width: 5px;
+              }
+              &::-webkit-scrollbar-thumb{
+                background: #F0F0F0;
+                border-radius: 19px;
+              }
+              .title{
+                letter-spacing: 0.05em;
+                margin-bottom: 15px;
+              }
+              .description{
+                margin-bottom: 30px;
+              }
+              .contacts{
+                margin-bottom: 40px;
+              }
+              .biography-wrapper{
+                .biography{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

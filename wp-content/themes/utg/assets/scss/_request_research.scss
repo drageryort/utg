@@ -1,0 +1,47 @@
+#popmake-893{
+  padding: 70px 60px;
+  max-width: 730px;
+  .popmake-close{
+    background: url("/wp-content/themes/utg/assets/images/x-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #132E82;
+    margin: 0 0 40px;
+  }
+  .contacts-wrapper{
+    text-align: left;
+    margin: 0 0 0 auto;
+    width: 225px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: var(--color-black);
+    a{
+      display: inline-block;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      color: #000000;
+      margin-bottom: 12px;
+      span{
+        position: relative;
+        top: 7px;
+      }
+      &:last-of-type{
+        margin-bottom: 21px;
+      }
+    }
+  }
+}

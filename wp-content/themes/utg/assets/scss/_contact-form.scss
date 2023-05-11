@@ -1,0 +1,69 @@
+#popmake-861{
+  padding: 60px 190px;
+  .popmake-close{
+    background: url("/wp-content/themes/utg/assets/images/x-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .popmake-title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-secondary)
+  }
+  p{
+    margin: 0;
+  }
+  .popmake-content{
+    .wpcf7-form {
+      .wpcf7-response-output{
+        display: none !important;
+      }
+      span.wpcf7-form-control-wrap{
+        margin-bottom: 20px;
+        display: inline-block;
+        input, textarea {
+          width: 100%;
+          padding: 14px 20px;
+          border: 1px solid #FFCEB2;
+          border-radius: 0;
+          &:focus {
+            outline: none;
+            border: 1px solid #FF813C;
+          }
+          &.wpcf7-not-valid{
+            border: 1px solid #FF4148;
+          }
+        }
+        .wpcf7-not-valid-tip{
+          color: #FF4148;
+        }
+      }
+      input[type=submit]{
+        display: block;
+        padding: 14px 56px;
+        border: 1px solid #FFCEB2;
+        margin: 30px auto 0;
+        cursor: pointer;
+        border-radius: 0;
+        &:focus {
+          outline: none;
+        }
+      }
+      .ajax-loader{
+        display: none;
+      }
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+}

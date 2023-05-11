@@ -1,0 +1,6 @@
+/.idea
+/wp-content/uploads
+/wp-content/cache
+error_log
+debug.log
+/wp-config.php

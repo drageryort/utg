@@ -1,0 +1,112 @@
+.term-actual{
+  .item-actual{
+    margin-bottom: 70px;
+    article{
+      .inner{
+        .title {
+          color: var(--color-black);
+          font-size: 30px;
+          font-weight: 700;
+          text-transform: uppercase;
+          @include title_decor('big');
+
+          &:after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            margin-top: 10px;
+            background-color: var(--color-primary);
+          }
+        }
+
+        .project-options {
+          position: relative;
+          z-index: 2;
+          margin-right: -70px;
+          padding: 60px 50px;
+          background-color: #fff;
+
+          .option {
+            &.date {
+              margin-top: 0;
+              font-size: 18px;
+
+              .value {
+                font-weight: bold;
+                color: var(--color-primary);
+              }
+            }
+
+            &.dates {
+              margin-top: 30px;
+            }
+
+            &.address {
+              margin-bottom: 30px;
+            }
+          }
+        }
+
+        .slick-list, .slick-track {
+          height: 100%;
+        }
+
+        .project-gallery {
+          .slick-slider,
+          .wp-post-image {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+            max-width: unset;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        .slick-arrow {
+          position: absolute;
+          background: var(--color-white);
+          bottom: 0;
+          top: unset;
+          left: unset;
+          right: unset;
+          &.slick-prev{
+            right: 50px;
+          }
+          &.slick-next{
+            right: 0;
+          }
+          &:hover, &:active, &:focus{
+            background: var(--color-primary);
+          }
+        }
+      }
+      & > .inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 350px;
+
+        .part {
+          position: relative;
+          flex-grow: 1;
+
+          &:first-child {
+            width: 35%;
+          }
+
+          &:last-child {
+            width: 65%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

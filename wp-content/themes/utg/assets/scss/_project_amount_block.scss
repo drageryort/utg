@@ -1,0 +1,17 @@
+.project-count-block{
+   display: flex;
+   padding-bottom: 160px;
+   .btn-underline{
+     margin-right: 30px;
+     span{
+       &:first-child{
+       }
+       &:last-child{
+         color: var(--color-black);
+       }
+     }
+     &:last-child{
+       margin-right: 0;
+     }
+   }
+ }

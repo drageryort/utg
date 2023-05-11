@@ -1,0 +1,440 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: UTG\n"
+"POT-Creation-Date: 2021-02-17 17:59+0200\n"
+"PO-Revision-Date: 2021-01-18 23:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "This page was not found, but you can visit other pages:"
+msgstr ""
+
+#: 404.php:24
+msgid "For developers"
+msgstr ""
+
+#: 404.php:25
+msgid "For retailers"
+msgstr ""
+
+#: 404.php:26
+msgid "Actual"
+msgstr ""
+
+#: 404.php:29
+msgid "Back"
+msgstr ""
+
+#: archive.php:26 template-parts/content-page-home.php:89
+msgid "Analytics"
+msgstr ""
+
+#: archive.php:33
+msgid "Order research"
+msgstr ""
+
+#: archive.php:45
+msgid "Department"
+msgstr ""
+
+#: archive.php:147 taxonomy-project_status-actual.php:80
+#: taxonomy-project_status-developed.php:150
+msgid "No projects found for your request :("
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: developers.php:60 developers.php:73
+msgid "Detailed"
+msgstr ""
+
+#: developers.php:143 retailer.php:69 services.php:214
+#: template-parts/content-page-home.php:114
+#: template-parts/content-project.php:212
+msgid "Still have questions? <br> Let us call you"
+msgstr ""
+
+#: developers.php:144 retailer.php:70 services.php:215
+#: template-parts/content-page-home.php:115
+#: template-parts/content-project.php:213
+msgid "make a request"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: developers.php:152 retailer.php:78 services.php:226
+#: template-parts/content-project.php:175
+msgid "Contacts"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: functions.php:49
+msgid "Sub Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Footer"
+msgstr ""
+
+#: functions.php:100
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:102 functions.php:113 functions.php:124
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:111
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:134
+msgid "Lang field"
+msgstr ""
+
+#: functions.php:136
+msgid "Add lang widgets here."
+msgstr ""
+
+#: header.php:86
+msgid "Menu:"
+msgstr ""
+
+#: history.php:58
+msgid "Awards and titles"
+msgstr ""
+
+#: history.php:70
+msgid "Gallery"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Light Logo"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:86
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:89
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:93
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:96
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:106
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:123 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: retailer.php:39 template-parts/content-page-home.php:80
+#: template-parts/content-project.php:220
+msgid "Actual offers"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:20
+#, php-format
+msgid "Search:% s"
+msgstr ""
+
+#: search.php:26
+msgid "Results:"
+msgstr ""
+
+#: search.php:33
+msgid "All results"
+msgstr ""
+
+#: taxonomy-project_status-active.php:28
+#: taxonomy-project_status-developed.php:28
+#: taxonomy-project_status-developed.php:112
+msgid "Concepts developed"
+msgstr ""
+
+#: taxonomy-project_status-active.php:32
+#: taxonomy-project_status-developed.php:32
+#: taxonomy-project_status-developed.php:116
+msgid "Clients"
+msgstr ""
+
+#: taxonomy-project_status-active.php:36
+#: taxonomy-project_status-developed.php:36
+#: taxonomy-project_status-developed.php:120
+msgid "Launched shopping centers"
+msgstr ""
+
+#: taxonomy-project_status-active.php:42
+#: taxonomy-project_status-developed.php:42
+#: taxonomy-project_status-developed.php:126
+msgid "Executed works"
+msgstr ""
+
+#: taxonomy-project_status-active.php:46
+#: taxonomy-project_status-developed.php:46
+#: taxonomy-project_status-developed.php:130
+msgid "Rented GLA"
+msgstr ""
+
+#: taxonomy-project_status-developed.php:54
+#: taxonomy-project_status-developed.php:60
+#: taxonomy-project_status-developed.php:138
+#: taxonomy-project_status-developed.php:142
+msgid "Filter"
+msgstr ""
+
+#: template-parts/archive-content-analytics.php:18
+#: template-parts/content-post.php:40
+msgid "Source:"
+msgstr ""
+
+#: template-parts/archive-content-project-actual.php:9
+#: template-parts/archive-content-project.php:22
+#: template-parts/content-project.php:33
+msgid "Status:"
+msgstr ""
+
+#: template-parts/archive-content-project-actual.php:16
+#: template-parts/content-project.php:42
+msgid "GLA (Gross Leasable Area):"
+msgstr ""
+
+#: template-parts/archive-content-project-actual.php:16
+#: template-parts/archive-content-project-actual.php:19
+#: template-parts/content-project.php:42 template-parts/content-project.php:45
+msgid "sq.m"
+msgstr ""
+
+#: template-parts/archive-content-project-actual.php:19
+#: template-parts/content-project.php:45
+msgid "GBA (Gross Building Area):"
+msgstr ""
+
+#: template-parts/archive-content-project-actual.php:22
+#: template-parts/archive-content-project.php:19
+#: template-parts/content-project.php:48
+msgid "Participation:"
+msgstr ""
+
+#: template-parts/archive-content-project-developed.php:9
+msgid "Type"
+msgstr ""
+
+#: template-parts/archive-content-project-developed.php:19
+msgid "Type of work"
+msgstr ""
+
+#: template-parts/archive-content-project-developed.php:25
+msgid "GLA"
+msgstr ""
+
+#: template-parts/archive-content-project-developed.php:31
+msgid "Address"
+msgstr ""
+
+#: template-parts/archive-content-project-developed.php:37
+msgid "Year"
+msgstr ""
+
+#: template-parts/archive-content-project-list.php:14
+msgid "Rent Area sq.m:"
+msgstr ""
+
+#: template-parts/archive-content-project-list.php:17
+msgid "Launch:"
+msgstr ""
+
+#: template-parts/archive-content-project.php:16
+msgid "Total Area sq.m:"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid "No results were found for Your request :("
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page-home.php:39
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-page-home.php:91
+#: template-parts/content-page-home.php:95
+msgid "All materials"
+msgstr ""
+
+#: template-parts/content-page-home.php:102
+msgid "News"
+msgstr ""
+
+#: template-parts/content-page-home.php:104
+#: template-parts/content-page-home.php:108
+msgid "All news"
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-post.php:46
+msgid ""
+"To purchase the full version of the research, You can apply following e-mail:"
+msgstr ""
+
+#: template-parts/content-post.php:55
+msgid "Download an introductory snippet:"
+msgstr ""
+
+#: template-parts/content-project.php:110
+msgid "Project developer"
+msgstr ""
+
+#: template-parts/content-project.php:127
+msgid "Anchor tenants"
+msgstr ""
+
+#: template-parts/content-project.php:151
+msgid "Planning schemes"
+msgstr ""
+
+#: template-parts/content-project.php:189
+msgid "Project information"
+msgstr ""
+
+#: template-parts/content-project.php:195
+msgid "Presentation"
+msgstr ""
+
+#: template-parts/content-project.php:202
+msgid "About project"
+msgstr ""
+
+#: template-parts/content-search.php:19
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-team-popup.php:11
+#: template-parts/content-team-project.php:22 template-parts/team-popup.php:13
+#: template-parts/team_popup.php:12
+msgid "For renting premises and participating in this project, please contact:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "UTG"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Description"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "IceCream"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://icecream.group/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "About us"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Developer"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "History"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Retailer"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Service page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage */ ?>"
+msgstr ""

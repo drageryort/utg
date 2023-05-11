@@ -1,0 +1,58 @@
+/*
+  Compile to wp-content/themes/utg/style.css
+
+  File Watcher settings:
+  Arguments: --sourcemap=none --no-cache $FileName$:$FileParentDir$/../$FileNameWithoutExtension$.css
+  Output paths to refresh: $FileParentDir$/../$FileNameWithoutExtension$.css
+ */
+
+/*!
+Theme Name: UTG
+Theme URI: http://underscores.me/
+Author: IceCream
+Author URI: https://icecream.group/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: utg
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+UTG is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Site specific styles
+--------------------------------------------------------------*/
+@import 'media_news';
+@import 'media_analytics';
+@import 'media_pages';
+@import 'media_contact-form';
+@import 'media_taxonomy_project_actual&realized';
+@import 'media_project_amount_block';
+@import 'media_single_project';
+@import 'media_taxonomy_project_developed';
+@import 'media_services_pages';
+@import 'media_common';
+@import 'media_navigation';
+@import 'media_404';
+@import 'media_developer_page';
+@import 'media_retailer_page';
+@import 'media_about_us_page';
+@import 'media_contact_page';
+@import 'media_team_page';
+@import 'media_history_page';
+@import 'media_awards_pop_up';
+@import 'media_pagination';
+@import 'media_request_research';
+@import 'media_team_post_popup';
+@import 'media_search';

@@ -1,0 +1,35 @@
+.error404{
+  .site-main{
+    .container{
+      .image{
+        padding: 40px 0 50px;
+        text-align: center;
+        img{
+          width: 40%;
+        }
+      }
+      .title{
+        margin: 0 auto 25px 0;
+        width: 410px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        color: var(--color-secondary);
+      }
+      .button-block{
+        margin: 0 0 100px;
+        text-align: right;
+        .btn{
+          margin-left: 35px;
+          width: 220px;
+          &:first-of-type{
+            margin-left: 0;
+          }
+        }
+      }
+      .back-btn{
+        margin: 0 0 100px;
+      }
+    }
+  }
+}

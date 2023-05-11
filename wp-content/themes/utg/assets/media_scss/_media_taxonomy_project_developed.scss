@@ -1,0 +1,326 @@
+@media (max-width: 1000px) {
+  .term-developed{
+    .header-wrapper{
+      .page-header-archive{
+        padding: 40px 0 10px;
+        .archive-title{
+        }
+      }
+      .page-params{
+        padding:30px 0 10px;
+        .tab-row{
+          grid-template-columns: 20% 20% 30% 30%;;
+          &:last-of-type{
+            grid-template-columns: 20% 40% 40%;
+            .param-el{
+              &.el4{
+                grid-column-start: 2;
+              }
+              &.el5{
+                grid-column-start: 3;
+              }
+            }
+          }
+          .param-el{
+            padding: 20px 10px;
+            span{
+              &:first-child{
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+              }
+              &:last-child{
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+          }
+        }
+      }
+      .utg-filter-form.type-developed{
+        justify-content: flex-start;
+        .radio-wrap{
+          padding-bottom: 50px;
+          .type-radio{
+            position: relative;
+            &:after{
+              content: '';
+              background: #C4C4C4;
+              height: 0.5px;
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+            }
+            .choice-item{
+              padding: 30px 0 0;
+              input[type=radio]:checked + label{
+                &:after{
+                  width: 100%;
+                  bottom: -1px;
+                }
+              }
+              label{
+                width: 69px;
+                padding-bottom: 11px;
+                span{
+                  font-size: 14px;
+                  line-height: 19px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+        .select-wrap{
+          margin-bottom: 30px;
+          width: unset;
+          select{
+            height: 50px;
+          }
+        }
+        .submit-wrap{
+          margin: 0;
+        }
+      }
+    }
+    .archive-project{
+      padding: 58px 0;
+      .item-list{
+        padding: 20px 0;
+        article{
+          .inner{
+            .project-options{
+              flex-wrap: wrap;
+              justify-content: space-between;
+              .title{
+                font-size: 14px;
+                line-height: 19px;
+                flex-basis: 100%;
+                margin-bottom: 15px;
+              }
+              .option{
+                .label{
+                  font-size: 12px;
+                  line-height: 16px;
+                  margin-bottom: 10px;
+                }
+                .value{
+                  font-size: 14px;
+                  line-height: 19px;
+                }
+                &.type, &.service, &.address{
+                  width: 150px;
+                  flex-basis: 150px;
+                  margin-right: 0;
+                }
+                &.area{
+                  width: 130px;
+                  flex-basis: 130px;
+                  margin-right: 0;
+                }
+                &.date{
+                  width: 50px;
+                  flex-basis: 50px;
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .pagination{
+      margin: 0 0 40px;
+    }
+    .project-count-block{
+      padding: 40px 0 140px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .term-developed{
+    .header-wrapper{
+      .page-header-archive{
+        padding: 30px 0 10px;
+        .archive-title{
+          font-size: 18px;
+          line-height: 25px;
+        }
+      }
+      .page-params{
+        padding:30px 0;
+        .tab-row{
+          grid-template-columns: 40% 30% 30%;
+          &:last-of-type{
+            grid-template-columns: 40% 60%;
+            .param-el{
+              padding: 20px 0 0;
+              &.el4{
+                grid-column-start: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+              }
+              &.el5{
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 2;
+              }
+            }
+          }
+          .param-el{
+            padding: 20px 0;
+            span{
+              &:first-child{
+                font-size: 18px;
+                line-height: 25px;
+                padding-bottom: 3px;
+                margin-bottom: 8px;
+              }
+              &:last-child{
+                font-size: 12px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+      .mobile-filter-popup{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100vw;
+        width: 100%;
+        background: var(--color-white);
+        height: 100vh;
+        z-index: 999;
+        padding: 30px 15px 40px;
+        overflow: hidden auto;
+        transition: 0.5s;
+        &.active{
+          right: 0;
+          .filter-mobile-title{
+            display: block;
+            margin: 20px 0;
+          }
+        }
+        >span{
+
+        }
+        .filter-mobile-title{
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 22px;
+          text-transform: uppercase;
+          color: var(--color-secondary);
+        }
+        .utg-filter-form.type-developed{
+          justify-content: flex-start;
+          .select-wrap{
+            margin-bottom: 15px;
+            width: 100%;
+            .select-type{
+              width: 100%;
+              .block-title{
+                font-size: 10px;
+                line-height: 14px;
+                letter-spacing: 0.05em;
+                margin-bottom: 5px;
+              }
+              &:after{
+                right: 8px;
+                bottom: 15px;
+              }
+            }
+            select{
+              height: 38px;
+              width: 100%;
+              padding: 8px 30px 8px 15px;
+              font-size: 14px;
+              line-height: 19px;
+              letter-spacing: 0.05em;
+            }
+          }
+          .submit-wrap{
+            width: 100%;
+            margin: 25px 0 0;
+          }
+        }
+      }
+      .filter-btn-wrapper{
+        padding: 15px 15px 20px;
+        margin: 0 -15px;
+        background: #F5F5F5;
+        display: block;
+        .btn.btn-underline{
+          padding-bottom: 8px;
+          display: flex;
+          margin: 0;
+          justify-content: center;
+          .text{
+            margin-left: 14px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+          }
+        }
+      }
+    }
+    .archive-project{
+      padding: 20px 0 0;
+      margin: 0;
+      .item-list{
+        padding: 20px 0;
+        article{
+          .inner{
+            .project-options{
+              flex-wrap: wrap;
+              justify-content: space-between;
+              .title{
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+              }
+              .option{
+                width: 50%;
+                flex-basis: 50% !important;
+                margin-bottom: 18px;
+                .label{
+                  font-size: 12px;
+                  line-height: 16px;
+                  margin-bottom: 2px;
+                }
+                .value{
+                  font-size: 14px;
+                  line-height: 19px;
+                }
+                &.type, &.service, &.area, &.date, &.address{
+                  width: unset;
+                  flex-basis: unset;
+                  margin-right: 0;
+                }
+                &.address{
+                  order: 2;
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .pagination{
+      margin: 40px 0 0;
+    }
+    .project-count-block{
+      padding: 40px 0 100px;
+    }
+    .no-results,.not-found {
+      .page-content {
+        margin: 0;
+        padding: 50px 0 70px;
+      }
+    }
+  }
+}

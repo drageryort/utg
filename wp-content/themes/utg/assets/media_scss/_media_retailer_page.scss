@@ -1,0 +1,304 @@
+@media (max-width: 1000px) {
+  .page-template-retailer{
+    .cooperation-description-section{
+      padding: 60px 0 55px;
+      .title{
+        margin: 0 0 30px;
+      }
+      .description-block-wrapper{
+        margin-bottom: 100px;
+        &:nth-child(odd){}
+        .image{
+          width: 210px;
+        }
+        .description-block{
+          width: 450px;
+          .move-to-right-block{
+            padding-left: 50px;
+          }
+          h3{
+            &:after{}
+          }
+          h4{
+            &:after{}
+          }
+          h5{}
+          p{}
+          ul{
+            li{
+              &::marker{
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-projects{
+      &:after{
+        width: calc((100vw - 100%) / 2 + 56%);
+        left: calc((100% - 100vw) / 2);
+      }
+    }
+    .top-projects-section{
+      padding: 70px 0 50px;
+      .title{
+        margin: 0 0 30px;
+      }
+      .top-project-list{
+        padding-bottom: 30px;
+        &:after{
+          height: 524px;
+          width: calc(((100vw - 100%) / 2) + 450px);
+        }
+        .top-project-list-el{
+          width: calc((100% - 30px) / 2);
+          margin-bottom: 30px;
+          img{
+            height: 220px;
+            margin-bottom: 20px;
+          }
+          h2{
+            padding-bottom: 10px;
+            margin: 0;
+            font-size: 16px;
+            line-height: 21px;
+            &:after{}
+          }
+        }
+      }
+    }
+    .section-cta{
+      padding: 50px 0 100px;
+    }
+    .contact-section{
+      padding: 0 0 100px;
+      .section-team {
+        padding: 40px 0 70px;
+        &:after{
+          height: 100%;
+          width: 100vw;
+        }
+        .title{
+          margin-bottom: 30px;
+        }
+        article{
+          .part{
+            &.image{
+              width: 210px;
+            }
+            &.info{
+              padding-left: 30px;
+              width: calc(100% - 210px);
+              .title{
+                margin-bottom: 15px;
+                &:after{
+                  margin-top: 4px;
+                }
+              }
+              .description{
+                margin: 0 0 40px;
+              }
+              .contacts{
+                .item{
+                  padding: 0;
+                  margin-bottom: 10px;
+                  &:last-of-type{
+                    margin-bottom: 0;
+                  }
+                }
+              }
+              .info{
+                p{
+                  margin: 30px 0 23px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+@media (max-width: 600px) {
+  .page-template-retailer{
+    .cooperation-description-section{
+      padding: 30px 0 70px;
+      .title{
+        margin: 0 0 20px;
+        font-size: 18px;
+        line-height: 25px;
+      }
+      .description-block-wrapper{
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+        &:nth-child(odd){
+          flex-direction: column-reverse;
+        }
+        .image{
+          width: 140px;
+          margin-bottom: 10px;
+        }
+        .description-block{
+          width: 100%;
+          .move-to-right-block{
+            padding-left: 30px;
+            margin: 25px 0 0;
+          }
+          h3{
+            font-size: 14px;
+            line-height: 19px;
+            margin-bottom: 10px;
+            &:after{}
+          }
+          h4{
+            font-size: 20px;
+            line-height: 27px;
+            margin-bottom: 7px;
+            &:after{}
+          }
+          h5{}
+          p{
+            font-size: 14px;
+            line-height: 19px;
+            margin: 0;
+          }
+          ul{
+            li{
+              &::marker{
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-projects{
+      &:after{
+        width: calc((100vw - 100%) / 2 + 54%);
+      }
+    }
+    .top-projects-section{
+      padding: 70px 0 50px;
+      .title{
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 0 30px;
+      }
+      .top-project-list{
+        padding-bottom: 0;
+        &:after{
+          content: none;
+        }
+        .top-project-list-el{
+          width: 100%;
+          margin-bottom: 40px;
+          &:last-of-type{
+            margin-bottom: 0;
+          }
+          img{
+            height: 195px;
+            margin-bottom: 15px;
+          }
+          h2{
+            padding-bottom: 10px;
+            margin: 0;
+            font-size: 14px;
+            line-height: 19px;
+            &:after{}
+          }
+        }
+      }
+    }
+    .section-cta{
+      padding: 50px 0 100px;
+      .inner{
+        padding: 0;
+      }
+    }
+    .contact-section{
+      padding: 0;
+      .section-team{
+        margin: 0;
+        padding: 30px 0 30px;
+        &:after{
+          height: 100%;
+        }
+        .title{
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        article{
+          .inner{
+            flex-direction: column;
+            .part{
+              &.image{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                margin: 0 0 35px;
+                img{
+                  width: 75px;
+                  height: auto;
+                  object-fit: contain;
+                  margin-right: 25px;
+                }
+                .mobile{
+                  display: flex;
+                  flex-direction: column;
+                  .title{
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 120%;
+                    margin-bottom: 10px;
+                    &:after {
+                      content: "";
+                      margin-top: 5px;
+                      width: 30px;
+                      height: 2px;
+                    }
+                  }
+                  .description{
+                    margin: 0;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 120%;
+                  }
+                }
+              }
+              &.info{
+                padding: 0;
+                width: 100%;
+                .contacts{
+                  font-size: 12px;
+                  line-height: 11px;
+                  .item{
+                    padding: 0;
+                    margin: 0 0 7px;
+                    &:last-of-type{
+                      margin-bottom: 0;
+                    }
+                    span{
+                      height: auto;
+                      svg{
+                        height: 17px;
+                      }
+                    }
+                  }
+                }
+                .info{
+                  p{
+                    margin: 20px 0;
+                    font-size: 12px;
+                    line-height: 120%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

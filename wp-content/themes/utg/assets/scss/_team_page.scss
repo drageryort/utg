@@ -1,0 +1,53 @@
+.archive-team{
+  column-count: 2;
+  column-fill: balance;
+  margin-bottom: 160px;
+
+  .team-page-item{
+    display: none;
+    break-inside: avoid-column;
+    &.visible{
+      display: block;
+      padding-top: 200px;
+      &.first{
+        padding-top: 0;
+      }
+    }
+    .team-inner{
+      display: block;
+      max-width: 445px;
+      width: 100%;
+      .person-photo{
+        margin-bottom: 50px;
+        img{
+          display: block;
+          object-fit: contain;
+          width: 445px;
+          height: 445px;
+          object-position: left;
+        }
+      }
+      .person-info{
+        .name{
+          font-size: 18px;
+          letter-spacing: 0.05em;
+          color: var(--color-black);
+          text-transform: uppercase;
+          margin: 0 0 15px;
+          &:after{
+            content: "";
+            display: block;
+            margin-top: 10px;
+            background-color: var(--color-primary);
+            width: 45px;
+            height: 2px;
+          }
+        }
+        .description{
+          letter-spacing: 0.05em;
+          margin: 0 0 25px;
+        }
+      }
+    }
+  }
+}

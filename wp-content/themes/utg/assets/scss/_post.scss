@@ -1,0 +1,70 @@
+.archive-post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 30px 0;
+
+  article {
+    width: 50%;
+    margin: 20px 0 30px 0;
+    padding: 0 15px;
+
+    .entry-title {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      a {
+        color: var(--color-black);
+      }
+    }
+
+    .post-thumbnail {
+      margin-bottom: 30px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+    }
+
+    .posted-on a {
+      color: #939393;
+      font-size: 14px;
+    }
+  }
+}
+
+.team-item {
+  > .inner {
+    display: flex;
+
+    > .part:first-child {
+      width: 290px;
+    }
+
+    > .part:last-child {
+      width: calc(100% - 590px);
+      padding-left: 90px;
+    }
+
+    .title {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: var(--color-black);
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include title_decor;
+    }
+  }
+
+  .contacts {
+    a {
+      color: var(--color-black);
+    }
+  }
+}

@@ -1,0 +1,469 @@
+@media (max-width: 1000px) {
+  .page-template-about {
+    .page-header-wrapper {
+      .page-header{
+        h1{
+          padding-top: 40px;
+        }
+      }
+    }
+    .content-wrapper {
+      .feature-section{
+        padding: 0;
+        margin-bottom: 30px;
+        .feature-section-row{
+          &.top{
+            grid-template-columns: 15% 15% 30% 35%;
+            .feature-section-el{
+              padding-top: 20px;
+              padding-bottom: 20px;
+              .value{
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+              }
+              .description{
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+          }
+          &.bottom{
+            grid-template-columns: 15% 15% 35% 35%;
+            .feature-section-el{
+              &:nth-child(1){
+                grid-area: 1/3/2/4;
+              }
+              &:nth-child(2){
+                grid-area: 1/4/2/5;
+              }
+              padding-top: 20px;
+              padding-bottom: 20px;
+              .value{
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+              }
+              .description{
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+          }
+        }
+      }
+      .our-advantages-section {
+        padding: 70px 0 20px;
+        .title{
+          margin: 0 0 30px;
+        }
+        .advantages-list {
+          max-width: 730px;
+          width: 100%;
+          .advantage-list-el {
+            max-width: 320px;
+            width: 100%;
+          }
+        }
+        &:before {
+          width: 206px;
+          height: 96px;
+          top: 30px;
+        }
+      }
+      .our-main-features {
+        padding: 0;
+        .our-main-features-list {
+          display: grid;
+          grid-row-gap: 50px;
+          grid-column-gap: 56px;
+          grid-template-columns: 190px 190px;
+          justify-content: flex-end;
+          align-items: baseline;
+          padding-right: 65px;
+          width: 730px;
+          max-width: 100%;
+          .our-main-features-list-el {
+            max-width: 190px;
+            width: 100%;
+            margin-bottom: 0;
+            list-style: none;
+          }
+        }
+      }
+      .our_peculiarity {
+        padding: 70px 0;
+        .title {
+          margin-bottom: 30px;
+        }
+        .our_peculiarities-list {
+          max-width: 730px;
+          width: 100%;
+          &-el {
+            margin-left: 15px;
+          }
+        }
+      }
+      .main_clients {
+        padding: 0;
+        .title {
+          margin-bottom: 30px;
+        }
+        .main_clients-list {
+          .main_clients-list-el {
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 1%;
+            .logo{
+              margin-bottom: 20px;
+            }
+            .name{
+              font-size: 14px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+      .brochures-slider-section {
+        padding: 0 0 100px;
+        .brochures-slider {
+          margin-bottom: 30px;
+          .brochures-slider-el {
+            .image {
+              width: 210px;
+              height: 304px;
+            }
+          }
+        }
+        .title-wrapper {
+          padding-top: 50px;
+          &::before {
+            width: 486px;
+            height: 360px;
+            top: 18px;
+          }
+        }
+      }
+      .text-field-section {
+        padding: 0;
+        .top-left-col {
+          max-width: 510px;
+          width: 100%;
+          margin: 0;
+          p{
+            margin: 15px 0;
+          }
+        }
+        .bottom-right-col {
+          margin-top: 40px;
+          width: 450px;
+          padding-right: 0;
+          &:before {
+            width: 189px;
+            height: 270px;
+            top: -60px;
+            right: -39px;
+          }
+          img {
+            max-width: 450px;
+            width: 450px;
+            height: 270px;
+          }
+          p {
+            margin-bottom: 40px;
+            &:not(:first-child) {
+              width: 100%;
+              margin: 15px 0;
+            }
+          }
+        }
+        .key-phrase{
+          width: 360px;
+          margin: 30px auto 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .page-template-about {
+    .page-header-wrapper {
+      .page-header {
+        h1 {
+          padding-top: 30px;
+        }
+      }
+    }
+
+    .content-wrapper {
+      .feature-section {
+        padding: 0;
+        margin-bottom: 30px;
+
+        .feature-section-row {
+          &.top {
+            display: flex;
+            flex-wrap: wrap;
+
+            &:before {
+              width: 100vw;
+              z-index: -1;
+            }
+
+            .feature-section-el {
+              padding-top: 10px;
+              padding-bottom: 10px;
+
+              &:nth-child(1) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              &:nth-child(2) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              &:nth-child(3) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              &:nth-child(4) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              .value {
+                font-size: 18px;
+                line-height: 25px;
+                padding-bottom: 3px;
+                margin-bottom: 8px;
+              }
+
+              .description {
+                font-size: 12px;
+                line-height: 16px;
+              }
+            }
+          }
+
+          &.bottom {
+            display: flex;
+
+            .feature-section-el {
+              &:nth-child(1) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              &:nth-child(2) {
+                flex-basis: 50%;
+                max-width: 50%;
+              }
+
+              padding-top: 10px;
+              padding-bottom: 10px;
+
+              .value {
+                font-size: 18px;
+                line-height: 25px;
+                padding-bottom: 3px;
+                margin-bottom: 8px;
+              }
+
+              .description {
+                font-size: 12px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+      .text-field-section {
+        .top-left-col{
+          p{
+            font-size: 12px;
+            line-height: 150%;
+          }
+        }
+        .bottom-right-col{
+          width: 100%;
+          margin: 0;
+          p{
+            margin: 25px 0;
+            font-size: 12px;
+            line-height: 150%;
+            &:not(:first-child) {
+              width: 100%;
+              margin: 15px 0;
+              font-size: 12px;
+              line-height: 150%;
+            }
+          }
+          img{
+            width: 100%;
+            height: auto;
+          }
+          &::before{
+            display: none;
+          }
+        }
+        .key-phrase{
+          width: 100%;
+          font-size: 12px;
+          line-height: 150%;
+          padding-top: 5px;
+          margin-top: 0;
+        }
+      }
+      .our-advantages-section {
+        padding: 50px 0 30px;
+        position: relative;
+
+        &::before {
+          background: transparent;
+        }
+
+        .title {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+
+        .advantages-list .advantage-list-el {
+          max-width: 290px;
+          width: 100%;
+          margin-bottom: 30px;
+          .name{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            margin-bottom: 10px;
+          }
+          .description{
+            font-size: 12px;
+            line-height: 150%;
+          }
+        }
+      }
+      .our-main-features {
+        .title{
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        .our-main-features-list {
+          padding-right: 0;
+          grid-template-columns: 1fr;
+          grid-row-gap: 25px;
+
+          .our-main-features-list-el {
+            .icon {
+              margin-bottom: 10px;
+              &::after {
+                width: 62px;
+                height: 62px;
+                bottom: 7px;
+                left: 7px;
+              }
+
+              img {
+                width: 60px;
+                height: 60px;
+              }
+            }
+            .name{
+              font-size: 14px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+      .our_peculiarity {
+        padding: 50px 0;
+        .title {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        .our_peculiarities-list {
+          max-width: 100%;
+          width: 100%;
+          .our_peculiarities-list-el {
+            margin-left: 15px;
+            .description{
+              font-size: 12px;
+              line-height: 150%;
+            }
+          }
+        }
+      }
+      .main_clients {
+        .title{
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 25px;
+        }
+        .main_clients-list {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 20px;
+          align-items: baseline;
+
+          .main_clients-list-el {
+            width: 100%;
+            margin-bottom: 30px;
+            .name{
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .brochures-slider-section {
+        .title-wrapper{
+          margin-bottom: 20px;
+          .title {
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+        .brochures-slider {
+          .brochures-slider-el {
+            .image {
+              width: 190px;
+              height: 276px;
+              margin-bottom: 10px;
+              margin-right: 10px;
+            }
+            .date{
+              font-size: 12px;
+              line-height: 16px;
+            }
+            .link{
+              padding-bottom: 8px;
+              .name{
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+          }
+        }
+        .gallery-counter{
+          span{
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+      }
+    }
+  }
+}

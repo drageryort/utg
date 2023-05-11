@@ -1,0 +1,66 @@
+/*
+  Compile to wp-content/themes/utg/style.css
+
+  File Watcher settings:
+  Arguments: --sourcemap=none --no-cache $FileName$:$FileParentDir$/../$FileNameWithoutExtension$.css
+  Output paths to refresh: $FileParentDir$/../$FileNameWithoutExtension$.css
+ */
+
+/*!
+Theme Name: UTG
+Theme URI: http://underscores.me/
+Author: IceCream
+Author URI: https://icecream.group/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: utg
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+UTG is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import 'mixins.scss';
+@import 'grid.scss';
+@import 'fonts.scss';
+@import 'base.scss';
+@import 'colors.scss';
+/*--------------------------------------------------------------
+# Site specific styles
+--------------------------------------------------------------*/
+@import 'common.scss';
+@import 'elements.scss';
+@import 'navigation.scss';
+@import 'pagination.scss';
+@import 'pages.scss';
+@import 'post.scss';
+@import 'project.scss';
+@import 'team_page.scss';
+@import 'archive.scss';
+@import 'news.scss';
+@import 'analytics.scss';
+@import 'team_post_popup.scss';
+@import 'awards_pop_up.scss';
+@import 'contact_page.scss';
+@import 'taxonomy-project-developed.scss';
+@import 'taxonomy-project-actual.scss';
+@import 'project_amount_block.scss';
+@import 'history_page.scss';
+@import 'about_us_page';
+@import 'developer_page';
+@import 'retailer_page';
+@import 'services_pages';
+@import 'contact-form';
+@import 'request_research';
+@import '404';
+@import 'search';

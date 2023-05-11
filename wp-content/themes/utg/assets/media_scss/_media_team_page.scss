@@ -1,0 +1,205 @@
+@media (max-width: 1000px) {
+  .post-type-archive-team {
+    .header-wrapper.team {
+      .page-header-archive{
+        padding: 60px 0 30px;
+      }
+      .department_filter {
+        margin-bottom: 30px;
+        .filter_el {
+          font-size: 14px;
+          margin-bottom: 30px;
+          padding-bottom: 8px;
+          &:nth-child(1) {
+            flex-basis: 33%;
+            span {
+              max-width: 195px;
+            }
+          }
+          &:nth-child(2) {
+            flex-basis: 33%;
+            span {
+              max-width: 112px;
+            }
+          }
+          &:nth-child(3) {
+            flex-basis: 33%;
+            padding-right: 0;
+            span {
+              max-width: 200px;
+            }
+          }
+          &:nth-child(4) {
+            flex-basis: 33%;
+            span {
+              max-width: 200px;
+            }
+          }
+          &:nth-child(5) {
+            flex-basis: 33%;
+            span {
+              max-width: 200px;
+            }
+          }
+          &:nth-child(6) {
+            flex-basis: 33%;
+            span {
+              max-width: 200px;
+            }
+          }
+          &:last-child {
+            width: 100%;
+            flex-basis: 100%;
+            span {
+              max-width: 260px;
+            }
+          }
+        }
+      }
+    }
+    .archive-team {
+      column-count: 1;
+      margin-bottom: 60px;
+      .team-page-item {
+        &.visible {
+          padding-top: 0;
+        }
+        .team-inner {
+          display: flex;
+          align-items: center;
+          max-width: 100%;
+          margin-bottom: 40px;
+          .person-photo {
+            margin-bottom: 0;
+            img {
+              width: 270px;
+              height: 270px;
+              margin-right: 30px;
+            }
+          }
+          .person-info{
+            .description{
+              margin-bottom: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .post-type-archive-team{
+    .header-wrapper.team{
+      .page-header-archive{
+        padding: 30px 0 20px;
+        .archive-title{
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 25px;
+        }
+      }
+      .mobile-title{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.05em
+      }
+      .select-wrapper{
+        position: relative;
+        .department_filter{
+          width: 100%;
+          background: #FFFFFF;
+          border: 1px solid var(--color-light-primary);
+          font-weight: normal;
+          letter-spacing: 0.05em;
+          text-shadow: 0 0 0 #000;
+          cursor: pointer;
+          height: 38px;
+          padding: 8px 30px 8px 15px;
+          font-size: 14px;
+          line-height: 19px;
+        }
+        &:after {
+          content: "";
+          background: url(/wp-content/themes/utg/assets/images/arrow-bottom-orange.svg) no-repeat center/100%;
+          width: 16px;
+          height: 8px;
+          right: 8px;
+          bottom: 15px;
+          padding: 0 0 2px;
+          position: absolute;
+          pointer-events: none;
+        }
+        &:before {
+          content: "";
+          right: 4px;
+          bottom: 15px;
+          width: 20px;
+          height: 20px;
+          background: var(--color-white);
+          position: absolute;
+          pointer-events: none;
+          display: block;
+        }
+      }
+
+    }
+    .archive-team {
+      .team-page-item {
+        .team-inner {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .person-photo {
+            margin-bottom: 20px;
+            img {
+              width: 100%;
+              height: auto;
+              margin-right: 0;
+            }
+          }
+          .person-info {
+            .name {
+              font-size: 14px;
+              line-height: 19px;
+              margin-bottom: 10px;
+              &::after {
+                margin-top: 5px;
+              }
+            }
+            .description {
+              font-size: 12px;
+              line-height: 16px;
+              margin: 0 0 16px;
+            }
+            .contacts {
+              .item {
+                padding: 0;
+                font-size: 12px;
+                line-height: 16px;
+                .icp-icon{
+                  margin-right: 20px;
+                  display: flex;
+                  align-items: center;
+                  svg{
+                    width: 17px;
+                  }
+                }
+                span{
+                  width: unset;
+                }
+              }
+              .item + .item {
+                margin-top: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
